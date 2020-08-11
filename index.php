@@ -1,6 +1,6 @@
 <?php
 session_start();
-$time = time() + 9999999999 ;
+$time = time() + 4799952000; // 86400
 
 if (isset($_POST['user'], $_POST['pass'])) {
     if ($_POST['checkbox'] == 'checkedValue') {
